@@ -1,0 +1,6 @@
+From: Active, ~Frozen, ~Missing
+To: Other, ~Missing, ~SameAccount
+Amount: Normal, ExactBalance, ExactLimit, ~Zero, ~OverBalance, ~OverLimit
+Currency: Same, Converted
+
+IF [From] = "Missing" OR [To] = "Missing" THEN [Amount] = "Normal";
